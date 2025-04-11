@@ -206,8 +206,8 @@
 
             bindings = <
 &trans  &kp TAB    &kp C_BRI_UP    &kp C_BRI_DN       &kp DLLR         &kp PRCNT        &kp CARET  &kp AMPS         &kp K_MUTE  &kp C_VOL_DN    &kp C_VOL_UP  &trans
-&trans  &trans     &kp C_VOL_DN    &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE        &kp MINUS  &hm RCTRL EQUAL  &kp UP      &hm RSHFT RBKT  &trans        &trans
-&trans  &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE        &kp UNDER  &kp LEFT         &kp DOWN    &kp RIGHT       &trans        &trans
+&trans  &kp TAB    &kp C_VOL_DN    &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE        &kp MINUS  &hm RCTRL EQUAL  &kp UP      &hm RSHFT RBKT  &trans        &trans
+&trans  &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE        &kp UNDER  &kp LEFT         &kp COMMA   &kp PERIOD      &trans        &trans
                                    &trans             &mo 3            &kp BACKSPACE    &trans     &trans           &trans
             >;
         };
