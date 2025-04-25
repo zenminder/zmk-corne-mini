@@ -191,7 +191,7 @@
 &trans  &kp ESC    &kp GRAVE    &kp LS(GRAVE)    &kp N4    &kp N5       &kp N6          &kp N7          &kp N8        &kp N9           &kp N0  &trans
 &trans  &kp TAB    &kp LG(TAB)  &kp LG(LS(TAB))  &kp LBKT  &kp MINUS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &kp LSHFT  &kp LBKT     &kp RBKT         &kp RBKT  &kp EQUAL    &kp SEMICOLON   &kp SQT         &kp SLASH     &kp TAB          &trans  &trans
-                                &trans           &trans    &trans       &kp BACKSPACE   &mo 4           &trans
+                                &trans           &trans    &trans       &kp BACKSPACE   &mo 3           &trans
             >;
         };
 
@@ -205,10 +205,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1     &kp N2          &kp N3             &kp N4           &kp N5           &kp N6     &kp N7           &kp N8     &kp N9          &kp N0  &trans
-&trans  &kp TAB    &kp C_VOL_DN    &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE        &kp MINUS  &hm RCTRL EQUAL  &kp UP     &hm RSHFT RBKT  &trans  &trans
-&trans  &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE        &kp UNDER  &kp LEFT         &kp COMMA  &kp PERIOD      &trans  &trans
-                                   &trans             &mo 3            &kp BACKSPACE    &trans     &trans           &trans
+&trans  &kp N1     &kp N2          &kp N3             &kp N4           &kp N5           &kp N6         &kp N7         &kp N8        &kp N9        &kp N0  &trans
+&trans  &kp TAB    &kp C_VOL_DN    &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE        &kp MINUS      &kp EQUAL      &kp BSLH      &kp FSLH      &trans  &trans
+&trans  &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE        &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(BSLH)  &kp LS(FSLH)  &trans  &trans
+                                   &trans             &mo 3            &kp BACKSPACE    &trans         &trans         &trans
             >;
         };
 
