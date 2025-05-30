@@ -188,10 +188,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC    &kp GRAVE    &kp LS(GRAVE)    &kp N4    &kp N5       &kp N6          &kp N7          &kp N8        &kp N9           &kp N0  &trans
-&trans  &kp TAB    &kp LG(TAB)  &kp LG(LS(TAB))  &kp LBKT  &kp MINUS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp LSHFT  &kp LBKT     &kp RBKT         &kp RBKT  &kp EQUAL    &kp SEMICOLON   &kp SQT         &kp SLASH     &kp TAB          &trans  &trans
-                                &trans           &trans    &trans       &kp BACKSPACE   &mo 3           &trans
+&trans  &kp ESC     &kp GRAVE    &kp LS(GRAVE)    &kp N4    &kp N5       &kp N6          &kp N7          &kp N8        &kp N9           &kp N0  &trans
+&trans  &bt BT_NXT  &kp LG(TAB)  &kp LG(LS(TAB))  &kp LBKT  &kp MINUS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &kp LSHFT   &kp LBKT     &kp RBKT         &kp RBKT  &kp EQUAL    &kp SEMICOLON   &kp SQT         &kp SLASH     &kp TAB          &trans  &trans
+                                 &trans           &trans    &trans       &kp BACKSPACE   &mo 3           &trans
             >;
         };
 
