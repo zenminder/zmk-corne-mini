@@ -191,7 +191,7 @@
 &trans  &kp ESC     &kp GRAVE    &kp LS(GRAVE)    &kp N4    &kp N5       &kp N6          &kp N7          &kp N8        &kp N9           &kp N0  &trans
 &trans  &bt BT_NXT  &kp LG(TAB)  &kp LG(LS(TAB))  &kp LBKT  &kp MINUS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &kp LSHFT   &kp LBKT     &kp RBKT         &kp RBKT  &kp EQUAL    &kp SEMICOLON   &kp SQT         &kp SLASH     &kp TAB          &trans  &trans
-                                 &trans           &trans    &trans       &kp BACKSPACE   &mo 3           &trans
+                                 &trans           &trans    &trans       &kp BACKSPACE   &trans          &trans
             >;
         };
 
@@ -208,12 +208,12 @@
 &trans  &kp N1     &kp N2          &kp N3             &kp N4           &kp N5           &kp N6         &kp N7         &kp N8        &kp N9        &kp N0        &trans
 &trans  &kp TAB    &kp C_VOL_DN    &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE        &kp MINUS      &kp EQUAL      &kp BSLH      &kp FSLH      &kp SEMI      &trans
 &trans  &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE        &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(BSLH)  &kp LS(FSLH)  &kp LS(SEMI)  &trans
-                                   &trans             &mo 3            &kp BACKSPACE    &trans         &trans         &trans
+                                   &trans             &trans           &kp BACKSPACE    &trans         &trans         &trans
             >;
         };
 
         ADJ {
-            display-name = "System";
+            display-name = "Adj";
             bindings = <
 &trans  &kp F1        &kp F2         &kp F3        &kp F4          &kp F5            &kp F6         &kp F7  &kp F8  &kp F9  &kp F10      &trans
 &trans  &hm LGUI F11  &hm LSHFT F12  &trans        &studio_unlock  &kp LG(SPACE)     &kp LC(SPACE)  &trans  &trans  &trans  &trans       &trans
