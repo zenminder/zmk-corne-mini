@@ -171,10 +171,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P      &trans
-&trans  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp RALT   &trans
-&trans  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp RSHFT  &trans
-                      &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RCTRL
+&trans  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O     &kp P     &trans
+&trans  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L     &kp RALT  &trans
+&trans  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp RCTRL  &kp RALT  &kp TAB   &trans
+                      &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RSHFT
             >;
         };
 
@@ -190,7 +190,7 @@
             bindings = <
 &trans  &kp ESC     &kp GRAVE    &kp LS(GRAVE)    &kp N4    &kp N5       &kp N6          &kp N7          &kp N8        &kp N9           &kp N0  &trans
 &trans  &bt BT_NXT  &kp LG(TAB)  &kp LG(LS(TAB))  &kp LBKT  &kp MINUS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp LSHFT   &kp LBKT     &kp RBKT         &kp RBKT  &kp EQUAL    &kp SEMICOLON   &kp SQT         &kp SLASH     &kp TAB          &trans  &trans
+&trans  &kp LSHFT   &kp LBKT     &kp RBKT         &kp RBKT  &kp EQUAL    &kp SEMICOLON   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT        &trans  &trans
                                  &trans           &trans    &trans       &kp BACKSPACE   &trans          &trans
             >;
         };
@@ -206,7 +206,7 @@
 
             bindings = <
 &trans  &kp N1     &kp N2          &kp N3             &kp N4           &kp N5           &kp N6         &kp N7         &kp N8        &kp N9        &kp N0        &trans
-&trans  &kp TAB    &kp C_VOL_DN    &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE        &kp MINUS      &kp EQUAL      &kp BSLH      &kp FSLH      &kp SEMI      &trans
+&trans  &kp N1     &kp N2          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE        &kp MINUS      &kp EQUAL      &kp BSLH      &kp FSLH      &kp SEMI      &trans
 &trans  &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE        &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(BSLH)  &kp LS(FSLH)  &kp LS(SEMI)  &trans
                                    &trans             &trans           &kp BACKSPACE    &trans         &trans         &trans
             >;
