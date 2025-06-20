@@ -188,10 +188,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC     &kp GRAVE    &kp LS(GRAVE)    &kp N4    &kp N5       &kp N6          &kp N7          &kp N8        &kp N9           &kp N0  &trans
-&trans  &bt BT_NXT  &kp LG(TAB)  &kp LG(LS(TAB))  &kp LBKT  &kp MINUS    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp LSHFT   &kp LBKT     &kp RBKT         &kp RBKT  &kp EQUAL    &kp SEMICOLON   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT        &trans  &trans
-                                 &trans           &trans    &trans       &kp BACKSPACE   &trans          &trans
+&trans  &kp ESC    &kp GRAVE     &kp LS(GRAVE)  &kp BSLH      &kp LS(BSLH)     &kp SQT         &kp LS(SQT)     &kp LS(COMMA)  &kp LS(DOT)      &kp SLASH  &trans
+&trans  &kp TAB    &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(LBKT)  &kp LS(EQUAL)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &trans     &trans
+&trans  &kp LSHFT  &kp LBKT      &kp RBKT       &kp MINUS     &kp EQUAL        &kp SEMICOLON   &kp LS(SEMI)    &kp COMMA      &kp DOT          &trans     &trans
+                                 &trans         &trans        &trans           &kp BACKSPACE   &trans          &trans
             >;
         };
 
@@ -205,10 +205,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1     &kp N2          &kp N3             &kp N4           &kp N5           &kp N6         &kp N7         &kp N8        &kp N9        &kp N0        &trans
-&trans  &kp N1     &kp N2          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE        &kp MINUS      &kp EQUAL      &kp BSLH      &kp FSLH      &kp SEMI      &trans
-&trans  &kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE        &kp LS(MINUS)  &kp LS(EQUAL)  &kp LS(BSLH)  &kp LS(FSLH)  &kp LS(SEMI)  &trans
-                                   &trans             &trans           &kp BACKSPACE    &trans         &trans         &trans
+&trans  &kp LS(N1)  &kp LS(N2)      &kp LS(N3)      &kp LS(N4)       &kp LS(N5)       &kp LS(N6)     &kp LS(N7)     &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans
+&trans  &kp N1      &kp N2          &kp N3          &kp N4           &kp N5           &kp N6         &kp N7         &kp N8      &kp N9      &kp N0      &trans
+&trans  &kp LSHFT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE        &kp LS(MINUS)  &kp LS(EQUAL)  &kp COMMA   &kp DOT     &kp SLASH   &trans
+                                    &trans          &trans           &kp BACKSPACE    &trans         &trans         &trans
             >;
         };
 
