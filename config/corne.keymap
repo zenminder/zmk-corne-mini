@@ -162,7 +162,7 @@
         compatible = "zmk,keymap";
 
         DEF {
-            display-name = "Base";
+            display-name = "Mac";
 
             // -----------------------------------------------------------------------------------------
             // |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |
@@ -223,7 +223,7 @@
         };
 
         WIN_DEF {
-            display-name = "Base";
+            display-name = "Win";
             bindings = <
 &trans  &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O     &kp P     &trans
 &trans  &kp A  &kp S  &kp D      &kp F  &kp G        &kp H    &kp J  &kp K      &kp L     &kp SEMI  &trans
