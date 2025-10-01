@@ -225,9 +225,9 @@
         ADJ {
             display-name = "Adj";
             bindings = <
-&trans  &kp F1        &kp F2         &kp F3        &kp F4        &kp F5           &kp F6         &kp F7      &kp F8  &kp F9  &kp F10  &trans
-&trans  &hm LGUI F11  &hm LSHFT F12  &trans        &kp LG(F3)    &kp LG(SPACE)    &kp LC(SPACE)  &kp RG(F4)  &trans  &trans  &trans   &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &trans         &trans      &trans  &to 0   &to 1    &trans
+&trans  &kp F1        &kp F2         &kp F3        &kp F4        &kp F5           &kp F6         &kp F7      &kp F8  &kp F9  &bt BT_CLR  &trans
+&trans  &hm LGUI F11  &hm LSHFT F12  &trans        &kp LG(F3)    &kp LG(SPACE)    &kp LC(SPACE)  &kp RG(F4)  &trans  &trans  &trans      &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &trans         &trans      &trans  &to 0   &to 1       &trans
                                      &trans        &mo 4         &trans           &trans         &mo 4       &trans
             >;
         };
