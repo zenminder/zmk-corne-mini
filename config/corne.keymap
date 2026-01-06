@@ -172,7 +172,7 @@
 
             bindings = <
 &trans  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P      &trans
-&trans  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI   &trans
+&trans  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp RCTRL  &trans
 &trans  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp RSHFT  &trans
                       &kp LGUI  &mo 2  &kp SPACE    &kp ENTER  &mo 3  &kp RALT
             >;
@@ -198,9 +198,9 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC    &kp GRAVE     &kp LS(GRAVE)  &kp BSLH      &kp LS(BSLH)     &kp SQT         &kp LS(SQT)     &kp LS(COMMA)  &kp LS(DOT)      &kp SLASH  &trans
-&trans  &kp TAB    &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(LBKT)  &kp LS(EQUAL)    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &trans     &trans
-&trans  &kp LSHFT  &kp LALT      &kp LCTRL      &kp MINUS     &kp EQUAL        &kp SEMICOLON   &kp LS(SEMI)    &kp FSLH       &kp LS(DOT)      &trans     &trans
+&trans  &kp TAB    &kp GRAVE     &kp LS(GRAVE)  &kp BSLH      &kp LS(BSLH)     &kp SQT         &kp LS(SQT)     &kp LS(COMMA)  &kp LS(DOT)  &kp LS(SQT)  &trans
+&trans  &kp TAB    &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(LBKT)  &kp LS(EQUAL)    &kp LEFT_ARROW  &kp PG_DN       &kp UP_ARROW   &kp PG_UP    &kp SQT      &trans
+&trans  &kp LSHFT  &kp LALT      &kp LCTRL      &kp MINUS     &kp EQUAL        &kp SEMICOLON   &kp LEFT_ARROW  &kp DOWN       &kp RIGHT    &trans       &trans
                                  &trans         &trans        &trans           &kp BACKSPACE   &trans          &trans
             >;
         };
@@ -217,7 +217,7 @@
             bindings = <
 &trans  &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)       &kp LS(N6)     &kp LS(N7)     &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans
 &trans  &kp N1      &kp N2      &kp N3      &kp N4      &kp N5           &kp N6         &kp N7         &kp N8      &kp N9      &kp N0      &trans
-&trans  &kp LSHFT   &kp LBKT    &kp RBKT    &kp MINUS   &kp TILDE        &kp LS(MINUS)  &kp LS(EQUAL)  &kp COMMA   &kp DOT     &trans      &trans
+&trans  &kp LSHFT   &kp GRAVE   &kp RBKT    &kp MINUS   &kp TILDE        &kp LS(MINUS)  &kp LS(EQUAL)  &kp COMMA   &kp DOT     &kp SEMI    &trans
                                 &trans      &trans      &kp BACKSPACE    &trans         &trans         &trans
             >;
         };
@@ -225,7 +225,7 @@
         ADJ {
             display-name = "Adj";
             bindings = <
-&trans  &kp F1        &kp F2         &kp F3        &kp F4        &kp F5           &kp F6         &kp F7      &kp F8         &kp F9  &bt BT_CLR  &trans
+&trans  &kp ESC       &kp F2         &kp F3        &kp F4        &kp F5           &kp F6         &kp F7      &kp F8         &kp F9  &bt BT_CLR  &trans
 &trans  &hm LGUI F11  &hm LSHFT F12  &kp PAGE_UP   &kp LG(F3)    &kp LG(SPACE)    &kp LC(SPACE)  &kp RG(F4)  &kp PAGE_DOWN  &trans  &trans      &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &trans         &trans      &trans         &to 0   &to 1       &trans
                                      &trans        &mo 4         &trans           &trans         &mo 4       &trans
