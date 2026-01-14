@@ -198,10 +198,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp ESC    &kp GRAVE     &kp LS(GRAVE)  &kp BSLH      &kp LS(BSLH)     &kp SQT         &kp LS(SQT)  &kp LS(COMMA)  &kp LS(DOT)  &kp COLON  &trans
-&trans  &kp TAB    &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(LBKT)  &kp LS(EQUAL)    &kp LEFT_ARROW  &kp DOWN     &kp UP_ARROW   &kp RIGHT    &kp RCTRL  &trans
-&trans  &kp LSHFT  &kp LALT      &kp LCTRL      &kp MINUS     &kp EQUAL        &kp SQT         &kp DQT      &kp LT         &kp GT       &trans     &trans
-                                 &trans         &trans        &trans           &kp BACKSPACE   &trans       &trans
+&trans  &kp ESC    &kp GRAVE     &kp LS(GRAVE)  &kp BSLH      &kp LS(BSLH)     &kp LG(F3)      &kp PG_DN  &kp PG_UP     &kp LG(F4)  &kp COLON  &trans
+&trans  &kp TAB    &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(LBKT)  &kp LS(EQUAL)    &kp LEFT_ARROW  &kp DOWN   &kp UP_ARROW  &kp RIGHT   &kp RCTRL  &trans
+&trans  &kp LSHFT  &kp LALT      &kp LCTRL      &kp MINUS     &kp EQUAL        &kp SQT         &kp DQT    &kp LT        &kp GT      &trans     &trans
+                                 &trans         &trans        &trans           &kp BACKSPACE   &trans     &trans
             >;
         };
 
@@ -229,6 +229,15 @@
 &trans  &hm LGUI F11  &hm LSHFT F12  &kp PAGE_UP   &kp LG(F3)    &kp LG(SPACE)    &kp LC(SPACE)  &kp RG(F4)  &kp PAGE_DOWN  &trans  &trans      &trans
 &trans  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &trans         &trans      &trans         &to 0   &to 1       &trans
                                      &trans        &mo 4         &trans           &trans         &mo 4       &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
